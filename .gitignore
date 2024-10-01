@@ -1,0 +1,10 @@
+def main():
+    print("¡Hola, mundo!")
+
+if __name__ == "__main__":
+    main()
+cd mi-proyecto
+python main.py
+git add .
+git commit -m "Añadido un saludo"
+git push origin main
